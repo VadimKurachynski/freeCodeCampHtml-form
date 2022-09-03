@@ -5,9 +5,11 @@
 
 body {
     background-color: rgb(54, 199, 235);
-    background-image:url(http://радостьдетям.com/views/radost/img/logo.png);
+    background-image:url(https://kartinkin.net/uploads/posts/2021-04/1617596336_19-p-den-rozhdeniya-detskii-fon-19.jpg);
     background-repeat: no-repeat;
-    background-position: 10% 20%, center;
+    background-attachment:fixed;
+    background-size: 100% auto;
+    /* background-position: 10% 20%, center; */
     font-family: 'Fjalla One', sans-serif;
 }
 
@@ -39,5 +41,5 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    height: 600px;
+    height: 2000px;
 }
