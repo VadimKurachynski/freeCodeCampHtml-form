@@ -1,8 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Fjalla+One&display=swap');
+
+
+
+
 body {
     background-color: blueviolet;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .container{
     width: 1000px;
+    height: 2000px;
     background-color: aliceblue;
+}
+.title{
+    text-align: center;
 }
