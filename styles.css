@@ -112,3 +112,21 @@ form {
 .submit-button{
     font-size: 25px;
 }
+
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+  }
+
+  input,
+button,
+select,
+textarea {
+  margin: 0;
+  
+  font-size: 25px;
+  
+}
