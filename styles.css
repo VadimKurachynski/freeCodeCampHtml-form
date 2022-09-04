@@ -8,11 +8,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    /* background-position: 10% 20%
-    , center; */
-
     font-family: 'Oswald', sans-serif;
-    
     color: rgb(247, 247, 247);
     font-size: 25px;
 }
@@ -21,15 +17,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-   
-
-
-    /* background-color: aliceblue; */
 }
 
 .title {
     text-align: center;
-    color: black;
+    color: rgb(231, 59, 59);
     font-family: 'Oswald', sans-serif;
 }
 
@@ -39,28 +31,22 @@ body {
     font-family: 'Oswald', sans-serif;
     font-style: italic;
     margin: -10px;
-    color: black;
+    color: rgb(231, 59, 59);
 }
 
 
 form {
-
     background-color: rgb(163, 164, 241);
-    /* max-width:  */
     margin: 40px auto 100px auto;
-
     max-width: 700px;
     height: auto;
-    border: 10px rgb(178, 223, 16) solid;
+    border: 5px rgb(178, 223, 16) solid;
     border-radius: 0.5rem;
-
 }
 
 
 .form-group {
     margin: 10px;
-    padding: 0.25rem;
-
 }
 
 .form-control {
@@ -68,14 +54,11 @@ form {
     margin: 10px auto 10px auto;
     width: 96%;
     height: 2.4rem;
-
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #600aeb;
     border-radius: 0.25rem;
-    /* transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
-
 }
 
 .form-control:focus {
@@ -120,7 +103,11 @@ label {
     display: flex;
     align-items: center;
     font-size: 25px;
-    margin-bottom: 0.5rem;
+    margin-left: 10px;
+}
+
+p{
+    margin-left: 10px;
 }
 
 input,
@@ -128,7 +115,6 @@ button,
 select,
 textarea {
     margin: 0;
-
     font-size: 25px;
 
 }
