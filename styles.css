@@ -80,7 +80,7 @@ form {
 
 .form-control:focus {
     border-color: #80bdff;
-    outline: 0;
+    /* outline: 0; */
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
@@ -93,10 +93,11 @@ form {
 }
 
 .input-textarea {
+    display: block;
+    margin: 10px auto 10px auto;
     min-height: 120px;
-    width: 100%;
-    padding: 0.625rem;
-    resize: vertical;
+    width: 96%;
+   
 }
 
 .submit-button {
@@ -109,7 +110,3 @@ form {
     cursor: pointer;
 }
 
-textarea{
-    margin: 10px auto 10px auto;
-    width: 90%;
-}
